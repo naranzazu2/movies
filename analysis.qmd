@@ -1,0 +1,17 @@
+---
+title: "Movie Analysis"
+author: "Nicolas"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+movies <- read_csv("data/movies.csv")
+```
+
+# Movie Analysis
+
+This is a Quarto document for movie analysis.
